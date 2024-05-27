@@ -24,7 +24,13 @@ public class Auto extends VehiculoPasajeros {
 
     }
     
- 
+    public void Realizarmantenimiento(){
+        System.out.println("Realizar mantenenimiento del auto");
 
+    }
 
+    public double calcostomanrenimiento(double costoporkilometro, double kilometrajerecorrido){
+        double totalcosto = costoporkilometro*kilometrajerecorrido;
+        return totalcosto;
+    }
 }

@@ -16,10 +16,14 @@ public class Camion extends Vehiculo Carga {
     @Override
     public void mostrarInfo() {
         super.mostrarInfo();
-        System.out.println("Número de Ejes: + numEjes);
+        System.out.println("Número de Ejes: "+ numEjes);
+
     }   
 
+    public void Realizarmantenimiento(){
+        System.out.println("Realizar mantenimiento establecido para el camion");
 
+    }
 
 
 
