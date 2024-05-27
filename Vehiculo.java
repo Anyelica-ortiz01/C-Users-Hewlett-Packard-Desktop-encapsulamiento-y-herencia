@@ -44,7 +44,8 @@ public class Vehiculo {
         System.out.println("Kilometraje"+kilometraje);
     }
    
-    
+    public void Realizarmantenimiento() {
+        System.out.println("Realizar mantenimiento bas. del vehiculo");
 
-
+     }
 }
